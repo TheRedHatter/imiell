@@ -55,3 +55,5 @@ View a specific label, such as the image description:
 Query all the labels inside a built image:
 
     docker inspect imiell/bad-dockerfile | jq -M '.[].Config.Labels'
+
+Random update: 2729
